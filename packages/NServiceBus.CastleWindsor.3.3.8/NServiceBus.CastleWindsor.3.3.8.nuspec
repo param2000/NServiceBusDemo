@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NServiceBus.CastleWindsor</id>
+    <version>3.3.8</version>
+    <title>NServiceBus CastleWindsor</title>
+    <authors>NServiceBus Ltd</authors>
+    <owners>NServiceBus Ltd</owners>
+    <licenseUrl>http://particular.net/licensing</licenseUrl>
+    <projectUrl>http://particular.net/</projectUrl>
+    <iconUrl>http://particular.blob.core.windows.net/media/Default/images/ProductLogos/icons/NServiceBus_32.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The CastleWindsor Container for the nservicebus</description>
+    <releaseNotes />
+    <copyright>Copyright (C) NServiceBus 2010-2012</copyright>
+    <tags>nservicebus servicebus msmq cqrs publish subscribe</tags>
+    <dependencies>
+      <dependency id="Castle.Windsor" version="3.0.0.2001" />
+      <dependency id="NServiceBus" version="[3.3.8]" />
+    </dependencies>
+    <references>
+      <reference file="NServiceBus.ObjectBuilder.CastleWindsor.dll" />
+    </references>
+  </metadata>
+</package>
